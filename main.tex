@@ -1,0 +1,211 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Nikita Romanenko} \\ \vspace{1pt}
+    \small +7-909-202-29-29 $|$ \href{mailto:x@x.com}{\underline{nikita@romanenko.ru}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/ndromanenko}} $|$
+    \href{https://github.com/...}{\underline{github.com/ndromanenko}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Higher School of Economics}{Moscow, Russia}
+      {Faculty of Computer Science}{2023 -- 2027}
+    \resumeSubheading
+      {Belgorod Industrial College}{Belgorod, Russia}
+      {Mechatronics and mobile robotics}{2019 -- 2023}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Achievements}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Cup IT \href{https://drive.google.com/file/d/17OqGl9A_XJSwNTCpPri_wJovc5xWBQRB/view}{[Certificate]}}{March 2023 -- April 2023}
+      {Result: finalist}{}
+      \resumeItemListStart
+        \resumeItem{Development of a mechanism for ranking comments on posts based on machine learning methods for the VK social network.}
+        \resumeItem{Development of an intelligent algorithm to attract relatives of Alfa-Bank’s current clients (task: look-alike modeling).}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Marking Hack \href{https://drive.google.com/file/d/1V_7ot2QWVVJsVrgAUk8hUMqztoqFjXbY/view}{[Certificate]}}{March 2023 -- April 2023}
+      {Result: winner}{}
+      \resumeItemListStart
+        \resumeItem{Development of a service for forecasting demand and searching for anomalies}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {MTS Cup \href{https://drive.google.com/file/d/1uGfXHVuDyOd67K94rU_mLPKiYmeT1p0w/view}{[Certificate]}}{January 2023 - March 2023}
+      {Result: top 50$\%$ leaderboard}{}
+      \resumeItemListStart
+        \resumeItem{Development of a model for determining the gender and age of the owner of an HTTP cookie based on the history of user activity on the Internet based on synthetic data.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {HackWagon \href{https://drive.google.com/file/d/1xTUjVmcrB1-HhRknQiIZQotFmdrfmMeI/view}{[Certificate]}}{December 2022}
+      {Result: participant}{}
+      \resumeItemListStart
+        \resumeItem{Development of a service for predicting travel time from the departure station to the destination station on the entire railway network.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{CSGO Tournament Prediction \href{https://github.com/ndromanenko/csgo_tournament_prediction}{[GitHub]}} $|$ \emph{Python}}{December 2022}
+          \resumeItemListStart
+            \resumeItem{Development of a model designed to predict the probability of a team winning a tournament in the computer game CS:GO.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Predict Churn Telecom \href{https://github.com/ndromanenko/training_projects/tree/master/predict_churn_telecom}{[GitHub]}} $|$ \emph{Python, PyTorch}}{October 2022}
+          \resumeItemListStart
+            \resumeItem{Development of a model designed to predict whether a subscriber will terminate a contract with a telecom company.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python(advanced), C/C++(basic), SQL (Postgres, basic), Latex} \\
+     \textbf{Developer Tools}{: Git, Figma, Jupyter Notebook, Overleaf, Visual Studio Code, PyCharm, Google Colab} \\
+     \textbf{Libraries}{: ML-stack (Pandas, Numpy, Seaborn, Matplotlib, Sklearn, Scipy, Optuna, Catboost, Lightgbm, Xgboost, Shap, Torch, Sqlalchemy and etc.), Aiogram}\\
+     \textbf{Experience in}{: Classic ML, Tabular tasks, NLP}
+     }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
